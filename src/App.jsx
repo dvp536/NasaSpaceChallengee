@@ -18,7 +18,6 @@ function App() {
                     <Route path="/moon" element={<MoonPage />} />
                     <Route path="/marsPage" element={<MarsDetails />} />
                     <Route path="/moonPage" element={<MoonDetails />} />
-                    <Route path="*" element={<NotFound />} />
                 </Routes>
             </Router>
         </div>
