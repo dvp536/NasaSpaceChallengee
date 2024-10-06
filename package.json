@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://dvp536.github.io/NasaSpaceChallengee/",
+  "homepage": "https://dvp536.github.io/NasaSpaceChallengee",
   "scripts": {
     "debug": "vite -d",
     "dev": "vite",
