@@ -13,11 +13,11 @@ function App() {
         <div>
             <Router basename="/https://dvp536.github.io/NasaSpaceChallengee/">
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/mars" element={<MarsPage />} />
-                    <Route path="/moon" element={<MoonPage />} />
-                    <Route path="/marsPage" element={<MarsDetails />} />
-                    <Route path="/moonPage" element={<MoonDetails />} />
+                    <Route path="./" element={<Home />} />
+                    <Route path="./mars" element={<MarsPage />} />
+                    <Route path="./moon" element={<MoonPage />} />
+                    <Route path="./marsPage" element={<MarsDetails />} />
+                    <Route path="./moonPage" element={<MoonDetails />} />
                 </Routes>
             </Router>
         </div>
