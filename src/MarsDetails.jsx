@@ -9,7 +9,7 @@ import "./Details.css"; // Custom styles for the calendar
 const MarsDetails = () => {
     const [selectedDate, setSelectedDate] = useState(null); // Manage selected date state
     const [image, setImage] = useState("No_Data.png")
-    const dataDirectory = "/public/marsPlot/";
+    const dataDirectory = "/marsPlot/";
 
     // Handle the date change
     const handleDateChange = (date) => {

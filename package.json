@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://dvp536.github.io/NasaSpaceChallengee",
   "scripts": {
     "debug": "vite -d",
     "dev": "vite",
@@ -11,6 +10,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "fix": "eslint . --ext js,jsx --fix --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
