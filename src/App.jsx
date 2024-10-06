@@ -11,7 +11,7 @@ function App() {
  
     return (
         <div>
-            <Router basename="/https://dvp536.github.io/NasaSpaceChallengee/">
+            <Router basename="/NasaSpaceChallengee">
                 <Routes>
                     <Route path="./" element={<Home />} />
                     <Route path="./mars" element={<MarsPage />} />
