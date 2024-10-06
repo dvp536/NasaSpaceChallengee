@@ -68,6 +68,9 @@ const MarsDetails = () => {
                     <p>
                     Seismic Activity (Marsquakes): Seismic activity on Mars, known as marsquakes, was detected for the first time by NASA’s InSight mission. These quakes are believed to be caused by tectonic forces, volcanic activity, or the cooling and shrinking of the planet’s interior. While much weaker than earthquakes, marsquakes provide valuable data about the planet’s interior structure and composition.
                     </p>
+                    <p>
+                        Example of date that give data: 2019/07/26
+                    </p>
                 </div>
         
                 {/* Calendar Section */}

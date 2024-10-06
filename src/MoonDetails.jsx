@@ -206,6 +206,9 @@ const MoonDetails = () => {
                         an hour due to the Moon’s lack of water and its rigid structure, which
                          allows seismic waves to travel longer distances without being absorbed. 
                     </p>
+                    <p>
+                        Example of date that give data: 1970/01/09
+                    </p>
                 </div>
         
                 {/* Calendar Section */}
