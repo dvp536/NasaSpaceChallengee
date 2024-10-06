@@ -5,7 +5,7 @@ import MarsDetails from "./MarsDetails";
 import MoonDetails from "./MoonDetails";
 import NotFound from "./404";
 import "./App.css"
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
  
