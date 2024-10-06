@@ -11,13 +11,13 @@ function App() {
  
     return (
         <div>
-            <Router basename="/NasaSpaceChallengee">
+            <Router>
                 <Routes>
-                    <Route path="./" element={<Home />} />
-                    <Route path="./mars" element={<MarsPage />} />
-                    <Route path="./moon" element={<MoonPage />} />
-                    <Route path="./marsPage" element={<MarsDetails />} />
-                    <Route path="./moonPage" element={<MoonDetails />} />
+                    <Route path="/" element={<Home />} />
+                    <Route path="/mars" element={<MarsPage />} />
+                    <Route path="/moon" element={<MoonPage />} />
+                    <Route path="/marsPage" element={<MarsDetails />} />
+                    <Route path="/moonPage" element={<MoonDetails />} />
                 </Routes>
             </Router>
         </div>
