@@ -13,11 +13,11 @@ function App() {
         <div>
             <Router>
                 <Routes>
-                    <Route path="/NasaSpaceChallengee/" element={<Home />} />
-                    <Route path="/NasaSpaceChallengee/mars" element={<MarsPage />} />
-                    <Route path="/NasaSpaceChallengee/moon" element={<MoonPage />} />
-                    <Route path="/NasaSpaceChallengee/marsPage" element={<MarsDetails />} />
-                    <Route path="/NasaSpaceChallengee/moonPage" element={<MoonDetails />} />
+                    <Route path="/" element={<Home />} />
+                    <Route path="/mars" element={<MarsPage />} />
+                    <Route path="/moon" element={<MoonPage />} />
+                    <Route path="/marsPage" element={<MarsDetails />} />
+                    <Route path="/moonPage" element={<MoonDetails />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </Router>
