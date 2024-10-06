@@ -9,7 +9,7 @@ import "./Details.css"; // Custom styles for the calendar
 const MoonDetails = () => {
     const [selectedDate, setSelectedDate] = useState(null); // Manage selected date state
     const [image, setImage] = useState("No_Data.png")
-    const dataDirectory = "/moonPlot/";
+    const dataDirectory = "moonPlot/";
 
     // Handle the date change
     const handleDateChange = (date) => {
